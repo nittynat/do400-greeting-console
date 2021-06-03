@@ -27,5 +27,6 @@ pipeline{
                     oc project rht-nlind-greetings
                     oc start-build greeting-console --follow --wait
                 '''
+        }
     }
 }
